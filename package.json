@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "next": "latest",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-github-btn": "^1.4.0",
+    "react-helmet": "^6.1.0",
+    "react-reveal": "^1.2.2",
+    "react-scroll": "^1.8.8",
+    "react-tilt": "^0.1.4",
+    "sass": "1.26.3"
+  }
+}
