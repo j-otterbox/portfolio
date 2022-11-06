@@ -1,9 +1,25 @@
+import React from "react";
+import { Helmet } from "react-helmet";
 import App from "../components/App";
+import { headData } from "../mock/data";
 
-export default function Home() {
+export default () => {
+  const { title, lang, description } = headData;
+
   return (
-    <div className="app">
-      <App />
-    </div>
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{title || "Gatsby Simplefolio"}</title>
+        <html lang={lang || "en"} />
+        <meta
+          name="description"
+          content={description || "Gatsby Simplefolio"}
+        />
+      </Helmet>
+      <div className="app">
+        <App />
+      </div>
+    </>
   );
-}
+};
