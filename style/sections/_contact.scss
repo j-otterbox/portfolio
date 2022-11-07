@@ -20,17 +20,24 @@
     backface-visibility: hidden;
 
     &__text {
-      margin-bottom: 2.5rem;
+      // margin-bottom: 2.5rem; <== original
+      margin-bottom: 4rem;
     }
 
     &__text,
-    a {
+    a,
+    button[type="submit"] {
       font-size: 2.4rem;
 
       // Responsive for contact text
       @include respond(phone) {
         font-size: 2rem;
       }
+    }
+
+    form {
+      max-width: 800px;
+      margin: auto;
     }
   }
 }

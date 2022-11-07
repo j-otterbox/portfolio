@@ -3,6 +3,7 @@ import Fade from "react-reveal/Fade";
 import { Container } from "react-bootstrap";
 import PortfolioContext from "../../context/context";
 import Title from "../Title/Title";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
@@ -17,7 +18,7 @@ const Contact = () => {
             <p className="contact-wrapper__text">
               {cta || "Would you like to work with me? Awesome!"}
             </p>
-            <a
+            {/* <a
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--hero"
@@ -28,7 +29,8 @@ const Contact = () => {
               }
             >
               {btn || "Let's Talk"}
-            </a>
+            </a> */}
+            <ContactForm />
           </div>
         </Fade>
       </Container>
