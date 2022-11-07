@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Image from "react-bootstrap/Image";
 
 const ProjectImg = ({ filename, alt }) => {
-  return <Image src={`/images/${filename}`} className="img-fluid" alt={alt} />;
+  return <Image src={`/${filename}`} className="img-fluid" alt={alt} />;
 };
 
 ProjectImg.propTypes = {

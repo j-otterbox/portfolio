@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: "portrait-min.jpg",
+  img: "",
   paragraphOne:
     "I'm from Orange County, CA and a CSUF alumnus. I enjoy learning about the web and game development. I focus on web technologies (mostly Javascript) but will try projects in other disciplines when I'm feeling up to the challenge.",
   paragraphTwo:
@@ -29,15 +29,6 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
-  // {
-  //   id: nanoid(),
-  //   img: "project.jpg",
-  //   title: "Web Sockets Chat App",
-  //   info: "",
-  //   info2: "",
-  //   url: "",
-  //   repo: "https://github.com/cobidev/react-simplefolio", // if no repo, the button will not show up
-  // },
   {
     id: nanoid(),
     img: "twitter-showcase-search-demo.gif",
