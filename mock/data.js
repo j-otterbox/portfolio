@@ -21,9 +21,9 @@ export const aboutData = {
   paragraphOne:
     "I'm from Orange County, CA and a CSUF alumnus. I enjoy learning about the web and game development. I focus on web technologies (mostly Javascript) but will try projects in other disciplines when I'm feeling up to the challenge.",
   paragraphTwo:
-    "I will work within your budget and provide equal value. If you need a website or developer for your next project. Look no futher.",
+    "I enjoy the development process and finding solutions to problems as they arise. No matter how many projects I build I will always consider myself a student because there is always something more to learn.",
   paragraphThree:
-    "To find out more about how I can help you and your business, please feel free to send me an email and I will respond as soon as I can.",
+    "Take a look at some of my work below and if you would like to reach out, there is a form at the bottom of the page to send me an email and I will respond as soon as I can.",
   resume: "", // if no resume, the button will not show up
 };
 
