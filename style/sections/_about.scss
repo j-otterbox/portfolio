@@ -86,7 +86,12 @@
       }
     }
 
-    h3 {
+    &__skills-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__skills-title {
       font-weight: 700;
     }
 
@@ -110,6 +115,7 @@
       }
 
       @include respond(tab-port) {
+        width: 100%;
         max-width: 375px;
         align-self: center;
 
