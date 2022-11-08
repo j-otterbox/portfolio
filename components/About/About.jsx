@@ -5,6 +5,8 @@ import Title from "../Title/Title";
 import AboutImg from "../Image/AboutImg";
 import PortfolioContext from "../../context/context";
 
+import Image from "react-bootstrap/Image";
+
 const About = () => {
   const { about } = useContext(PortfolioContext);
   const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
@@ -55,6 +57,27 @@ const About = () => {
                   {paragraphThree ||
                     "Lorem ipsum dolor sit, amet consectetur adipisicing elit."}
                 </p>
+                <h3 className="mt-5 mb-4">MY SKILLS</h3>
+                <ul className="about-wrapper__skills-list">
+                  <li>
+                    <Image src="/icons/html5.png" alt="HTML5 icon" />
+                  </li>
+                  <li>
+                    <Image src="/icons/css3.png" alt="CSS3 icon" />
+                  </li>
+                  <li>
+                    <Image src="/icons/javascript.png" alt="Javascript icon" />
+                  </li>
+                  <li>
+                    <Image src="/icons/react.png" alt="React icon" />
+                  </li>
+                  <li>
+                    <Image src="/icons/nodejs.png" alt="Node icon" />
+                  </li>
+                  <li>
+                    <Image src="/icons/sql.png" alt="SQL icon" />
+                  </li>
+                </ul>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
