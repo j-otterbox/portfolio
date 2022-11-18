@@ -96,3 +96,10 @@
 .up i {
   color: #272727;
 }
+
+/* this is a fix for webkit, specifically safari, not working with the above styling on buttons */
+/* the gradient btn text cannot be given a transparent color that lets the background gradient clip through on safari */
+/* so this color is a happy middle between the two gradient colors */
+.form-btn {
+  -webkit-text-fill-color: #3eccfd;
+}

@@ -50,7 +50,7 @@ const ContactForm = () => {
           />
         </div>
       </fieldset>
-      <button type="submit" className="cta-btn cta-btn--hero mt-4">
+      <button type="submit" className="cta-btn cta-btn--hero form-btn mt-4">
         Let's Talk
       </button>
     </form>
