@@ -31,6 +31,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: "chat-app-demo.gif",
+    title: "Chat App",
+    info: "An app for instant messaging between users built with the React, Node, and the Socket.io library",
+    info2: "",
+    url: "https://chat-app-service.onrender.com/signin",
+    repo: "https://github.com/j-otterbox/chat-app",
+  },
+  {
+    id: nanoid(),
     img: "twitter-showcase-search-demo.gif",
     title: "Twitter Showcase",
     info: "An application for searching Twitter built with React and Node",
